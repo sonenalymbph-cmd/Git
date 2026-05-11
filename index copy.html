@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Register</title>
+    <style>
+        .conetener{
+            text-align: center;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="contener">
+ <form id ="Frm1" method="Get" action="http://127.0.0.1:5500/index.html" >
+    <p>
+        <label style="color:brown">Tên Đăng Nhập(*)</label>
+        <input type="text" name="txtUsername">
+    </p>
+    <p>
+        <label style="color:brown">Pass(*)</label>
+        <input type="password" name="txtPass">
+    </p>
+     <p>
+        <label style="color:brown">Nhập Lại mật khẩu(*)</label>
+        <input type="password" name="txtPass1">
+    </p>
+    <p>
+        <label style="color:brown">Họ Và Tên(*)</label>
+        <input type="text" name="User Name">
+    </p>
+     <p>
+        <label style="color:rgb(0, 0, 0)">Email</label>
+        <input type="email" name="txtmail">
+    </p>
+     <p>
+        <label style="color:rgb(20, 5, 5)">Ngày Sinh</label>
+        <input type="date" name="txtDOB">
+    </p>
+     <p>
+        <label style="color:rgb(20, 6, 6)">Giới Tính</label>
+        <span>
+        <input type="radio" name="Giới Tính" value="Nam">Nam
+        <input type="radio" name="Giới Tính" value="Nữ">Nữ
+        </span>
+    </p>
+    <p>
+        <label>Ngoại Ngữ</label>
+        <span>
+            <input type="checkbox" name="NN" value="English">English
+            <input type="checkbox" name="NN" value="French">French
+            <input type="checkbox" name="NN" value="China">China
+            <input type="checkbox" name="NN" value="Japan">Japan
+        </span>
+        <p>
+            <label>Nghề Nhiệp</label>
+            <select id="nghenhiep" size="1" multiple>
+            <option value="1">Kỹ Sư</option>
+            <option value="2">Giáo Vien</option>
+            <option value="3">Bác Sĩ</option>
+            <option value="4">Bộ Đội</option>
+            <option value="4">Tu do</option>
+            <option value="4">Canh sat</option>
+            <option value="4">Buon Ban</option>
+            </select>
+        </p>
+        <p>
+            <label>Ảnh</label>
+            <input type="file" name="file ảnh"
+        </p>
+        
+        <p>
+        <label style="color: rgb(6, 12, 10);">Nội Dung Mặc Định </label>
+        <textarea name="txtGhichu" rows="10" cols="90"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Lưu dữ liệu"
+        </p>
+    </p>
+    </div>
+ </form>
+</body>
+</html>
